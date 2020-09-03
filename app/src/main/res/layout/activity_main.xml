@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textSize="30sp"
+        android:background="#03A9F4"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="#111112"
+        android:gravity="center"
+        android:text="kishoreReddy"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#8BC34A"
+        android:gravity="center_horizontal"
+        android:text="@string/it_is_clean"/>
+    <TextView
+        android:textColor="#00BCD4"
+        android:lineSpacingExtra="10dp"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Widget.ActionMode.Subtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="web"
+        android:text="@string/logo"/>
+</LinearLayout>
+</ScrollView>
